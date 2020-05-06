@@ -28,7 +28,7 @@
     visibility:hidden;
     visibility:visible\9;/*For old IE browsers IE6-8 */
 }
-.slideanim.slide {visibility: visible; animation:slide 0.50s;}
+.slideanim.slide {visibility: visible; animation:slide 2s;}
 .slideanim::after {
     /* useful when its child elements are float:left; */
     content: "";
@@ -73,8 +73,7 @@ footer {
 }
 
 section {
-    display:block;
-    padding:40px;
+    padding:10px;
 }
 
 .row::after {
